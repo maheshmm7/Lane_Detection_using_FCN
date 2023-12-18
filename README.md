@@ -15,9 +15,10 @@ The TuSimple dataset consists of 6,408 road images on US highways. The resolutio
 
 ## FCN Architecuture 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![fcn_1](https://github.com/maheshmm7/Lane_Detection_using_FCN/assets/121345928/70d927ab-ee99-4ed8-a5a7-b0bba70400c4)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![fcn](https://github.com/maheshmm7/Lane_Detection_using_FCN/assets/121345928/b607da64-773c-44c4-b9aa-82412af2659a)
 
 ## Downloads :    
 Download the Full Dataset Here: [TuSimple](https://www.kaggle.com/datasets/manideep1108/tusimple)
@@ -61,7 +62,8 @@ To test the code
 
 ## METRICS VISUALIZATION
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![FCN](https://github.com/maheshmm7/Lane_Detection_using_FCN/assets/121345928/f1d0a00d-bd26-4c74-9e3f-1e2c5548c589)
+
 
 The Above graph visualize the metrics during the training process, it shows the graph showing Training & Validation Loss and Training & Validation Accuracy with the staring value and ending value.  The graphs shows the gradual decrease in the loss function and gradual increase accuracy as shown in the visualization.
 
@@ -73,10 +75,10 @@ tensorboard --logdir=path/to/your/logs/directory
 ```
 After running the command, open your web browser and go to http://localhost:6006 to access the TensorBoard interface. You'll be able to navigate through the different tabs to explore the data recorded in the tensorboard v2 file.
 ## Predictions 
+![output](https://github.com/maheshmm7/Lane_Detection_using_FCN/assets/121345928/41c61a5c-f89b-4839-90ff-ba4622954efa)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![output_2](https://github.com/maheshmm7/Lane_Detection_using_FCN/assets/121345928/08c3ec1b-6d34-407f-a3eb-473b9dc7afdb)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 I tested the Predictions on the inference code by loading the saved .h5 weights file and testing it on the new images.  The model predictions came out to be good as shown in the figures.
 
